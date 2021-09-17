@@ -1,7 +1,7 @@
 # meta2itol
 tabular metadata files converted to colour strip inputs for iTOL
 
-##Usage
+## Usage
     usage: meta_2_itol_strip.py [-h] -m METADATA -o OUTPUTPREFIX [-c COLUMNS] [-t TIP_ID] [-s SEP]
     
     optional arguments:
@@ -16,10 +16,10 @@ tabular metadata files converted to colour strip inputs for iTOL
                             column header with strain ids matching tree tips (default: Strain)
       -s SEP, --sep SEP     delimiter between columns (default: )
 
-###Input
+#### Input
 
 Delimited file with one column matching the leaves of the tree you wish to annotate in iTOL
 
-###Output
+#### Output
 
 One colourstrip file for each metadata column, named by the column header
